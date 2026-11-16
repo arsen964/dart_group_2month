@@ -21,6 +21,7 @@ flutter:
   assets:
     - images/
 
+
   fonts:
   - family: Oregano
     fonts:

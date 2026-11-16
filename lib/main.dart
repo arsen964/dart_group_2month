@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
 import 'myApp.dart';
 import 'profileApp.dart';
-void main() => runApp(ProfileApp());
+import 'myProject.dart';
+import 'productApp.dart';
+
+void main() => runApp(ProductApp());
