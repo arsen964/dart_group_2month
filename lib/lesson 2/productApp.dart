@@ -101,11 +101,15 @@ class ProductCard extends StatelessWidget {
     return Container(
       padding: EdgeInsets.all(paddingSize),
       decoration: BoxDecoration(
-       color: Color(0xFFFFF8E7),
-        
+        color: Color(0xFFFFF8E7),
+
         borderRadius: BorderRadius.circular(cardRadius),
         boxShadow: [
-          BoxShadow(color: Color(0x332D2418), blurRadius: 6, offset: Offset(0, 3)),
+          BoxShadow(
+            color: Color(0x332D2418),
+            blurRadius: 6,
+            offset: Offset(0, 3),
+          ),
         ],
       ),
       child: Column(
@@ -163,7 +167,6 @@ class ProductCard extends StatelessWidget {
 
               SizedBox(height: 12),
 
-              
               Text(
                 price,
                 style: TextStyle(

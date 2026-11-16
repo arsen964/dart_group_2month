@@ -114,8 +114,9 @@ class ProfilePage extends StatelessWidget {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {},
-              style: ElevatedButton.styleFrom(backgroundColor: Color(0xFFD6B878),
-              foregroundColor: Color(0xFF171A1D)
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Color(0xFFD6B878),
+                foregroundColor: Color(0xFF171A1D),
               ),
               child: Text('Follow'),
             ),
