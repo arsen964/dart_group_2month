@@ -1,13 +1,9 @@
-
 import 'package:flutter/material.dart';
 
 class FeedBackApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: FeedbackPage(),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: FeedbackPage());
   }
 }
 
@@ -37,10 +33,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
             // Stateless часть
             Text(
               'Форма обратной связи',
-              style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-              ),
+              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
 
             SizedBox(height: 10),
